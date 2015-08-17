@@ -22,3 +22,5 @@
   - Wanneer wordt deze methode aangeroepen?
 8. Voeg een UINavigationController (met een UIViewController embedded) toe aan de UITabBarController.
   - Wat gebeurt er?
+9. Voeg meer dan 5 UIViewControllers toe aan de UITabBarController.
+  - Wat gebeurt er?

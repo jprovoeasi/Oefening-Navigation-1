@@ -8,7 +8,7 @@
 3. Vergeet de UITabBarController niet in te stellen als initiële view controller.
   - Selecteer de UITabBarController en vink deze optie aan door gebruik te maken van de **attribute inspector**.
 4. Voeg een UIViewController toe aan het storyboard en voeg deze toe aan de UITabBarController.
-  - Dit doe je door de UITabBarController aan te klikken en te slepen terwijl je ⌘ inhoudt.
+  - Dit doe je door de UITabBarController aan te klikken en te slepen terwijl je `CTRL` inhoudt.
   - Verander het UITabBarItem.
 5. Verander de volgorde van de UIViewControllers in de UITabBarController.
 6. Inspecteer de methode `prepareForSegue:sender:`van de UITabBarController.

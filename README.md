@@ -1,4 +1,7 @@
 # Oefening-Navigation-1
+## Tips
+1. Een grote bron van icons kun je vinden op https://icons8.com/
+
 ## Opgaves
 1. Voeg een UIViewController toe aan het storyboard.
 2. Embed de UIViewController in een UITabBarController.

@@ -1,4 +1,5 @@
 # Oefening-Navigation-1
+
 ## Tips
 1. Een grote bron van icons kun je vinden op https://icons8.com/
 
@@ -27,3 +28,6 @@
   - Wat gebeurt er?
 9. Voeg meer dan 5 UIViewControllers toe aan de UITabBarController.
   - Wat gebeurt er?
+
+## Oplossing
+De oplossingen vind je terug onder de branch **oplossing** van deze repository.

@@ -13,6 +13,8 @@
 		ABC074CB1B82742900B592D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABC074CA1B82742900B592D5 /* Images.xcassets */; };
 		ABC074CE1B82742900B592D5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABC074CC1B82742900B592D5 /* LaunchScreen.xib */; };
 		ABC074DA1B82742900B592D5 /* Oefening_Navigation_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC074D91B82742900B592D5 /* Oefening_Navigation_1Tests.m */; };
+		ABCB1EC41B8EFEB500C556B8 /* SuperHeroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCB1EC31B8EFEB500C556B8 /* SuperHeroViewController.m */; };
+		ABCB1EC71B8F029700C556B8 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCB1EC61B8F029700C556B8 /* TabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,10 @@
 		ABC074D31B82742900B592D5 /* Oefening-Navigation-1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Oefening-Navigation-1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC074D81B82742900B592D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABC074D91B82742900B592D5 /* Oefening_Navigation_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Oefening_Navigation_1Tests.m; sourceTree = "<group>"; };
+		ABCB1EC21B8EFEB500C556B8 /* SuperHeroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SuperHeroViewController.h; path = Classes/SuperHeroViewController.h; sourceTree = "<group>"; };
+		ABCB1EC31B8EFEB500C556B8 /* SuperHeroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SuperHeroViewController.m; path = Classes/SuperHeroViewController.m; sourceTree = "<group>"; };
+		ABCB1EC51B8F029700C556B8 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TabBarController.h; path = Classes/TabBarController.h; sourceTree = "<group>"; };
+		ABCB1EC61B8F029700C556B8 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TabBarController.m; path = Classes/TabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +139,10 @@
 			isa = PBXGroup;
 			children = (
 				ABC074E61B82744200B592D5 /* Storyboards */,
+				ABCB1EC21B8EFEB500C556B8 /* SuperHeroViewController.h */,
+				ABCB1EC31B8EFEB500C556B8 /* SuperHeroViewController.m */,
+				ABCB1EC51B8F029700C556B8 /* TabBarController.h */,
+				ABCB1EC61B8F029700C556B8 /* TabBarController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -247,7 +257,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABC074C31B82742900B592D5 /* AppDelegate.m in Sources */,
+				ABCB1EC71B8F029700C556B8 /* TabBarController.m in Sources */,
 				ABC074C01B82742900B592D5 /* main.m in Sources */,
+				ABCB1EC41B8EFEB500C556B8 /* SuperHeroViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +456,7 @@
 				ABC074DF1B82742900B592D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABC074E01B82742900B592D5 /* Build configuration list for PBXNativeTarget "Oefening-Navigation-1Tests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +465,7 @@
 				ABC074E21B82742900B592D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

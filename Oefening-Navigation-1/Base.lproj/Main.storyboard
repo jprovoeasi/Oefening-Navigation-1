@@ -1,7 +1,153 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="xPW-QY-woz">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
-    <scenes/>
+    <scenes>
+        <!--Batman-->
+        <scene sceneID="bLn-8S-gBe">
+            <objects>
+                <viewController id="VQz-NW-OJo" customClass="SuperHeroViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DMp-a2-XsG"/>
+                        <viewControllerLayoutGuide type="bottom" id="B70-Wi-gxA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Oyc-4q-6TC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Batman" image="batman" id="XE1-N1-Oo7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5dI-oG-3oL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1069" y="675"/>
+        </scene>
+        <!--The Flash-->
+        <scene sceneID="Nyg-j3-6nF">
+            <objects>
+                <viewController id="1zs-0f-F8L" customClass="SuperHeroViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vbO-p0-cNe"/>
+                        <viewControllerLayoutGuide type="bottom" id="sgs-ok-tik"/>
+                    </layoutGuides>
+                    <view key="view" tag="5" contentMode="scaleToFill" id="R11-sS-Lvt">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="The Flash" image="flash" id="4fh-12-zEu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HG6-q0-Zcv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1069" y="1495"/>
+        </scene>
+        <!--Spider Man-->
+        <scene sceneID="zZF-Xq-L7O">
+            <objects>
+                <viewController id="rF7-Uq-7fY" customClass="SuperHeroViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="slP-0L-8Df"/>
+                        <viewControllerLayoutGuide type="bottom" id="3Py-eH-HiX"/>
+                    </layoutGuides>
+                    <view key="view" tag="3" contentMode="scaleToFill" id="hUA-vA-k4A">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Spider Man" image="spider-man" id="qVc-8i-jbL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T9U-K8-Oxf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1069" y="2263"/>
+        </scene>
+        <!--Iron Man-->
+        <scene sceneID="S3e-ik-rFa">
+            <objects>
+                <viewController id="74R-xF-4Ev" customClass="SuperHeroViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="x7U-KW-Vbv"/>
+                        <viewControllerLayoutGuide type="bottom" id="Lsh-cH-VYb"/>
+                    </layoutGuides>
+                    <view key="view" tag="2" contentMode="scaleToFill" id="5a6-iK-eMp">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Iron Man" image="iron-man" id="Zbr-uH-JL4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GeB-XY-pLm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1875" y="1495"/>
+        </scene>
+        <!--Superman-->
+        <scene sceneID="jN8-cV-SRV">
+            <objects>
+                <viewController id="NNz-E6-p1N" customClass="SuperHeroViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OZO-Mh-zNw"/>
+                        <viewControllerLayoutGuide type="bottom" id="0b8-v5-kfY"/>
+                    </layoutGuides>
+                    <view key="view" tag="4" contentMode="scaleToFill" id="Afr-NY-44H">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Superman" image="superman" id="VQG-IQ-2GD"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q9w-7h-4Nc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1875" y="2263"/>
+        </scene>
+        <!--Cpt. America-->
+        <scene sceneID="TPs-ch-fM3">
+            <objects>
+                <viewController id="xP3-Ow-MdO" customClass="SuperHeroViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GMS-c4-pOv"/>
+                        <viewControllerLayoutGuide type="bottom" id="gbS-xK-wdy"/>
+                    </layoutGuides>
+                    <view key="view" tag="1" contentMode="scaleToFill" id="ci5-lY-BOC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Cpt. America" image="captain-america" id="Sh3-Vo-mxx"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bfj-cJ-eCm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1875" y="675"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Dl0-uj-fPg">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="xPW-QY-woz" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="9ee-XC-eoa">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="VQz-NW-OJo" kind="relationship" relationship="viewControllers" id="YnN-IA-e8E"/>
+                        <segue destination="xP3-Ow-MdO" kind="relationship" relationship="viewControllers" id="wAB-D9-1eb"/>
+                        <segue destination="74R-xF-4Ev" kind="relationship" relationship="viewControllers" id="Dqg-Fk-o4g"/>
+                        <segue destination="rF7-Uq-7fY" kind="relationship" relationship="viewControllers" id="UpX-ag-ehb"/>
+                        <segue destination="NNz-E6-p1N" kind="relationship" relationship="viewControllers" id="Av1-0y-fop"/>
+                        <segue destination="1zs-0f-F8L" kind="relationship" relationship="viewControllers" id="sqN-vQ-EAJ"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n8E-sr-8iS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="257" y="675"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="batman" width="26" height="26"/>
+        <image name="captain-america" width="26" height="26"/>
+        <image name="flash" width="26" height="26"/>
+        <image name="iron-man" width="26" height="26"/>
+        <image name="spider-man" width="26" height="26"/>
+        <image name="superman" width="26" height="26"/>
+    </resources>
 </document>

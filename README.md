@@ -1,5 +1,7 @@
 # Oefening-Navigation-1
 
+In deze oefening leer je navigeren met behulp van een **UITabBarController**.
+
 ## Tips
 1. Een grote bron van icons kun je vinden op https://icons8.com/
 
